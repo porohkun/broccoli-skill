@@ -1,0 +1,8 @@
+{
+  "name": "broccoli2",
+  "description": "Конструктор инспекций Broccoli2: устройство схемы, ноды, селекторы и сборка схем через MCP-сервер BroccoliMcp.",
+  "version": "0.1.0",
+  "author": {
+    "name": "BIMTeam"
+  }
+}
