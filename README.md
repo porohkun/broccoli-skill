@@ -9,11 +9,11 @@
 ## Подключение
 
 ```bash
-claude plugin marketplace add <адрес этого репозитория>
+claude plugin marketplace add porohkun/broccoli-skill
 claude plugin install broccoli2@bimteam
 ```
 
-Локально, без удалённого репозитория, — путём к папке:
+Локально, из рабочей копии, — путём к папке:
 
 ```bash
 claude plugin marketplace add ./Skill
