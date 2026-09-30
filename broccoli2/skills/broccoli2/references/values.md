@@ -18,7 +18,7 @@
 
 | Перечисление | Члены | Где |
 |---|---|---|
-| `ElementKind` | `Element`, `ElementType` | `OfType.Kind` |
+| `ElementKind` | `Any`, `Element`, `ElementType`, а также классы Revit: `Wall`, `Floor`, `Ceiling`, `Roof`, `Stairs`, `Railing`, `FamilyInstance`, `FamilySymbol`, `Family`, `Room`, `Space`, `Area`, `Level`, `Grid`, `View`, `ViewSheet`, `Pipe`, `Duct`, `CableTray`, `Conduit`, `Group`, `RevitLinkInstance`, `ImportInstance`, `Material` | `OfType.Kind` |
 | `CombineType` | `And`, `Or` | `CombineFilter.CombineType` |
 | `ValueType` | `String`, `Double`, `Bool` | `ParameterValue.ParameterType` |
 | `TextComparison` | `Equal`, `NotEqual`, `IsMatch`, `IsNotMatch` | оператор при текстовом сравнении |

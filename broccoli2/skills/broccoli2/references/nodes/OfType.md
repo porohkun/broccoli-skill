@@ -5,7 +5,14 @@
 
 Входы
 - Input — поток, IFlow<>.
-- Kind — вид элемента, перечисление ElementKind: Element или ElementType. По умолчанию ElementType.
+- Kind — вид элемента, перечисление ElementKind. По умолчанию ElementType. Any — любой элемент,
+  Element — всё, кроме элементов типа, ElementType — элементы типа; остальные члены — классы
+  Revit: Wall, Floor, FamilyInstance, Room, Level, View, Pipe и другие (полный список —
+  в values.md).
+
+Вид — это класс Revit, а не категория. Двери и окна — FamilyInstance, как и стена, созданная
+моделью в контексте: чтобы отобрать двери, отбери FamilyInstance и добавь CategoryFilter. Виды
+вложены, как классы Revit: ViewSheet входит и в View, FamilySymbol — и в ElementType.
 
 Выходы
 - Result — объекты выбранного вида, тип потока уточнён.
