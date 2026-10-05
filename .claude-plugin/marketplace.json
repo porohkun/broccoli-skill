@@ -7,7 +7,7 @@
     {
       "name": "broccoli2",
       "source": "./broccoli2",
-      "description": "Конструктор инспекций Broccoli2: устройство схемы, ноды, селекторы и сборка схем через MCP-сервер BroccoliMcp."
+      "description": "Конструктор инспекций Broccoli2: устройство схемы, ноды, селекторы, сборка и проверка схем через MCP-сервер BroccoliMcp."
     }
   ]
 }
